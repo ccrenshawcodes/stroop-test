@@ -24,10 +24,6 @@ li {
     padding-bottom: 20px;
 }
 
-footer {
-    margin-top: 30%;
-}
-
 main {
     display:inline-block;
 }
@@ -62,4 +58,8 @@ input {
     color: #faf2eb;
     border-radius: 10px;
     font-size: large;
+}
+
+footer {
+    margin-top: 10px;
 }
