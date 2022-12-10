@@ -1,3 +1,5 @@
+This is my first time taking on a project like this!
+
 Here are my goals.
 
 1. Create a functioning stroop test.
