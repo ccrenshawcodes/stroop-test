@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Stroop test</title>
+        
+        <!--stylesheet-->
+        <link rel="stylesheet" href="stroop.css" />
+
+    </head>
+    <body>
+        <header>
+            <h1>Stroop Test</h1>
+            <h2>You can read more about the Stroop test <a href="https://en.wikipedia.org/wiki/Stroop_effect">here</a>.</h2>
+
+            <nav>
+                <ul>
+                    <li><a href="stroop.html">Stroop test</a></li>
+                    <li><a href="stroopcontrol.html">Control</a></li>
+                </ul>
+            </nav>
+
+            <p>You have thirty seconds to enter as many words as you can.</p>
+            <p class="luck">Good luck!</p>
+        </header>
+
+        <main>
+            <div id="stopwatch">-:--</div>
+            <span class="word" id="word">red</span><br />
+            <button class="start" id="start">Start</button><br />
+            <input type="text" class="input" id="input" placeholder="Type here, then hit enter" /><br />
+            <p id="score">Here's how many words you got through:<br/></p>
+        </main>
+
+        <footer>
+            <p><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">Leave Feedback</a></p>
+        </footer>
+
+        <!--script-->
+        <script src="stroop.js"></script>
+
+    </body>
+</html>
